@@ -8,9 +8,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+discord-py = "^2.3.2"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.28"
+sqlalchemy-utils = "^0.41.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.2.0"
+ruff = "^0.3.2"
 
 [build-system]
 requires = ["poetry-core"]
